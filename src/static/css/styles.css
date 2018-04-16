@@ -1,0 +1,23 @@
+/* --- HTML elements --- */
+body{
+    background-color: #ECEEEC;
+    padding: 0;
+    margin: 0;
+}
+/* --- Header --- */
+.Logo-div{
+    padding: 1em;
+    text-align: center;
+}
+.Logo-img{
+    height:100px;
+}
+.PhoneNum-div{
+    /* padding: 1em; */
+}
+.PhoneNum-h2{
+color: #d2181f;
+margin-left: .83em;
+width: 180px;
+padding-left:10px; 
+}

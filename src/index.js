@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './pages/index.css';
-import App from './pages/App';
+import './static/css/styles.css'
+import PhoneNum from './components/atoms/PhoneNum';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<PhoneNum />, document.getElementById('root'));
 registerServiceWorker();
