@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './static/css/styles.css'
-import Header from './components/orginisms/Header';
+import Layout from './components/templates/Layout';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<Header />, document.getElementById('root'));
+ReactDOM.render(<Layout />, document.getElementById('root'));
 registerServiceWorker();

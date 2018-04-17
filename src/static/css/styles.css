@@ -5,13 +5,20 @@ body{
     margin: 0;
     height: 1500;
 }
+/* --- Layout --- */
+.mainContainer{
+    display: flex;
+    flex-flow: column wrap;
+    margin:1em 5em;
+    border: .5px solid #454747;
+}
 /* --- Header --- */
 header{
-    background-color: #454747;
-    /* background-color: #9B917D; */
+    /* background-color: #454747; */
+    background-color: #9B917D;
 
     /* border-bottom: .5px solid #454747; */
-    border-bottom: .5px solid #9B917D;
+    /* border-bottom: .5px solid #9B917D; */
 }
 .header-top{
     display: flex;
@@ -68,8 +75,32 @@ header{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    color: #005D9C;;
+    color: #005D9C;
 }
 .TopNav-ul a:hover {
     color: #ECEEEC;
+}
+/* --- Footer --- */
+footer{
+    display: flex;
+    flex: 0 0  auto;
+    justify-content: space-evenly;
+    /* background-color: #454747; */
+    background-color: #9B917D;
+
+    /* border-bottom: .5px solid #454747; */
+    /* border-bottom: .5px solid #9B917D; */
+
+}
+.footer-slogan{
+    flex: 0 0  auto;
+    align-self: center;
+    text-decoration: underline solid #005D9C;
+    color: #d2181f;
+    
+}
+
+/* --- Temp CSS --- */
+.tempContent{
+    height: 500px;
 }
