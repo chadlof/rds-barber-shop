@@ -3,21 +3,73 @@ body{
     background-color: #ECEEEC;
     padding: 0;
     margin: 0;
+    height: 1500;
 }
 /* --- Header --- */
+header{
+    background-color: #454747;
+    /* background-color: #9B917D; */
+
+    /* border-bottom: .5px solid #454747; */
+    border-bottom: .5px solid #9B917D;
+}
+.header-top{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    
+}
+.header-bottom{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
 .Logo-div{
-    padding: 1em;
-    text-align: center;
+    flex: 0 0  auto;
+    align-self: flex-start;
 }
 .Logo-img{
-    height:100px;
+    height:50px;
 }
-.PhoneNum-div{
-    /* padding: 1em; */
-}
+
 .PhoneNum-h2{
-color: #d2181f;
-margin-left: .83em;
-width: 180px;
-padding-left:10px; 
+    color: #d2181f;
+    flex: 0 0  auto;
+    align-self: center;
+    margin: 0;
+  
+}
+
+.Address-h2{
+    color: #d2181f;
+    flex: 0 0 auto;
+    align-self: center;
+    margin: 0;
+} 
+
+.TopNav-div{
+    flex: 0 0  auto;
+    align-self: center;
+}
+.TopNav-ul{
+    display: inline;
+    list-style-type: none;
+    color: #005D9C;
+    font-size: 1.5em;
+    
+}
+.TopNav-ul li{
+    display: inline;    
+    padding-left: 10px;
+
+}
+.TopNav-ul a{ 
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #005D9C;;
+}
+.TopNav-ul a:hover {
+    color: #ECEEEC;
 }
