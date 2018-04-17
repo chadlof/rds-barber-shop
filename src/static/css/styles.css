@@ -1,24 +1,19 @@
 /* --- HTML elements --- */
 body{
-    background-color: #ECEEEC;
     padding: 0;
     margin: 0;
-    height: 1500;
 }
 /* --- Layout --- */
 .mainContainer{
     display: flex;
     flex-flow: column wrap;
+    background-color: #ECEEEC;
     margin:1em 5em;
-    border: .5px solid #454747;
+    border: 5px outset #E4DBC0;
 }
 /* --- Header --- */
 header{
-    /* background-color: #454747; */
-    background-color: #9B917D;
-
-    /* border-bottom: .5px solid #454747; */
-    /* border-bottom: .5px solid #9B917D; */
+    background-color: #E4DBC0;
 }
 .header-top{
     display: flex;
@@ -85,17 +80,11 @@ footer{
     display: flex;
     flex: 0 0  auto;
     justify-content: space-evenly;
-    /* background-color: #454747; */
-    background-color: #9B917D;
-
-    /* border-bottom: .5px solid #454747; */
-    /* border-bottom: .5px solid #9B917D; */
-
+    background-color: #E4DBC0;
 }
 .footer-slogan{
     flex: 0 0  auto;
     align-self: center;
-    text-decoration: underline solid #005D9C;
     color: #d2181f;
     
 }
