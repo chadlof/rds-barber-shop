@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
+import { Link} from 'react-router-dom'
 // import PropTypes from 'prop-types'
 import '../../../../../static/css/styles.css'
+
 
 
 class TopNav extends Component {
@@ -8,13 +10,13 @@ class TopNav extends Component {
       return (
           <div className="TopNav-div">
             <ul className="TopNav-ul">
-              <li><a href="../../../../../../index.js">Home</a></li>
-              <li><a href="../../../../../../index.js">Directions</a></li>
-              <li><a href="../../../../../../index.js">Gallery</a></li>
-              <li><a href="../../../../../../index.js">Contact</a></li>
-              <li><a href="../../../../../../index.js">About</a></li>
-          </ul>
-          </div>
+              <li><Link to="/">Home</Link></li>
+              <li><Link to="/directions">Directions</Link></li>
+              <li><Link to="/">Gallery</Link></li>
+              <li><Link to="/">Contact</Link></li>
+              <li><Link to="/">About</Link></li>
+           </ul>
+          </div>  
       );
     }
   }

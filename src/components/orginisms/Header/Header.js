@@ -10,7 +10,7 @@ import TopNav from './components/TopNav'
 class Header extends Component {
     render() {
       return (
-        <header>
+        <header >
             <div className="header-top">
                 <PhoneNum/>
                 <Address/>
