@@ -7,6 +7,9 @@ import Footer from '../orginisms/Footer'
 import { Switch, Route} from 'react-router-dom'
 import Home from '../pages/Home'
 import Directions from '../pages/Directions'
+import Gallery from '../pages/Gallery'
+import Contact from '../pages/Contact'
+import About from '../pages/About'
 
 
 class Layout extends Component {
@@ -19,6 +22,9 @@ class Layout extends Component {
               <Switch>
                 <Route  exact path="/" component={Home}/>
                 <Route  path="/directions" component={Directions}/> 
+                <Route  exact path="/gallery" component={Gallery}/>
+                <Route  exact path="/contact" component={Contact}/>
+                <Route  exact path="/about" component={About}/>
               </Switch>
             </section>
             <div className="tempContent"></div>

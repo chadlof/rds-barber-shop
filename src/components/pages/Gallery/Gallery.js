@@ -4,12 +4,12 @@ import '../../../static/css/styles.css'
 
 
 
-class Home extends Component {
+class Gallery extends Component {
     render() {
       return (
-          <h1>Home</h1>
+          <h1>Gallery</h1>
       );
     }
   }
   
-  export default Home
+  export default Gallery

@@ -12,9 +12,9 @@ class TopNav extends Component {
             <ul className="TopNav-ul">
               <li><Link to="/">Home</Link></li>
               <li><Link to="/directions">Directions</Link></li>
-              <li><Link to="/">Gallery</Link></li>
-              <li><Link to="/">Contact</Link></li>
-              <li><Link to="/">About</Link></li>
+              <li><Link to="/gallery">Gallery</Link></li>
+              <li><Link to="/contact">Contact</Link></li>
+              <li><Link to="/about">About</Link></li>
            </ul>
           </div>  
       );
