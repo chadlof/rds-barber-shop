@@ -10,11 +10,14 @@ class TopNav extends Component {
       return (
           <div className="TopNav-div">
             <ul className="TopNav-ul">
-              <li><Link to="/">Home</Link></li>
-              <li><Link to="/directions">Directions</Link></li>
-              <li><Link to="/gallery">Gallery</Link></li>
-              <li><Link to="/contact">Contact</Link></li>
-              <li><Link to="/about">About</Link></li>
+              <li><Link className="a"
+                        activeClassName="active" 
+                        acttiveStyle={{color:'red'}}
+                        to="/">Home</Link></li>
+              <li><Link className="a"to="/directions">Directions</Link></li>
+              <li><Link className="a"to="/gallery">Gallery</Link></li>
+              <li><Link className="a"to="/contact">Contact</Link></li>
+              <li><Link className="a"to="/about">About</Link></li>
            </ul>
           </div>  
       );
