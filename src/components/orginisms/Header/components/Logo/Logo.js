@@ -8,6 +8,7 @@ class Logo extends Component {
       return (
         <div className="Logo-div">
             <img src={RDsLogo} className="Logo-img" alt="RDs logo" />
+            <h3 className="Logo-h3">Babershop</h3>
         </div>
       );
     }

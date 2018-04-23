@@ -13,12 +13,13 @@ body{
     display: flex;
     flex-flow: column wrap;
     background-color: #ECEEEC;
-    margin:1em 5em;
-    border: 5px outset #E4DBC0;
+    margin: .5em 5em;
+    border: 4px outset #E4DBC0;
 }
 /* --- Header --- */
 header{
     background-color: #E4DBC0;
+    border-bottom: 3px outset #E4DBC0;
 }
 .header-top{
     display: flex;
@@ -33,11 +34,17 @@ header{
     justify-content: space-around;
 }
 .Logo-div{
+    display:flex;
     flex: 0 0  auto;
     align-self: flex-start;
 }
 .Logo-img{
     height:50px;
+}
+.Logo-h3{
+    margin-left: -5px;
+    margin-top: 30px;
+    color: #d2181f;
 }
 
 .PhoneNum-h2{
@@ -85,6 +92,83 @@ header{
 .TopNav-ul .active{
     color:black;
 }
+/* --- Layout --- */
+.LayoutSection{
+    margin: 20px 10px;
+}
+/* --- Home page --- */
+.Home-Container{
+    display:flex;
+    flex-flow: column wrap ;
+    justify-content: space-between;
+}
+.Home-topContainer{
+    display: flex;
+    flex: 3 0 auto;
+    flex-flow: row wrap ;
+    justify-content: space-evenly;
+}
+.Home-top-left{
+    display: flex;
+    flex: 1 0 auto;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+.Home-top-right{
+    display: flex;
+    flex: 1 0 auto;
+    flex-flow: column wrap;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.StorefrontPic{
+    display: flex;
+    flex: 0 0 auto;
+    padding: 5%;
+    margin: 3% 9%;
+    justify-content: center;
+    background-color: #555757;
+    border: 1px ridge rgb(214, 214, 214);
+    /* box-shadow:  20px 10px 30px rgba(0, 94, 156, 0.438); */
+}
+.StorefrontPic Img{
+    flex: 0 0 auto;
+    border: 1px solid #ECEEEC;
+}
+.HomeInfo-div{
+    padding: 0 6%;
+    margin-right: 20%;
+    background-color: #555757;
+    border: 1px ridge rgb(214, 214, 214);
+    /* box-shadow:  20px 10px 30px rgba(0, 94, 156, 0.438); */
+}
+.Home-bottomContainer{
+    display: flex;
+    flex: 3 0 auto;
+    flex-flow: row wrap ;
+    justify-content: space-around;
+}
+.Welcome-div{
+    display: flex;
+    flex-flow: row wrap;
+    flex: 0 1 auto;
+    margin: 2% 6%;
+    padding: 0 10% 0 5%;
+    background-color: #555757;
+    border: 1px ridge rgb(214, 214, 214);
+    /* box-shadow:  20px 10px 30px rgba(0, 94, 156, 0.438); */
+
+}
+.Welcome-message{
+    flex: 1 1 auto;
+}
+.Welcome-contact{
+    flex: 1 1 auto;
+}
+
+
 
 /* --- Footer --- */
 footer{
@@ -92,6 +176,7 @@ footer{
     flex: 0 0  auto;
     justify-content: space-evenly;
     background-color: #E4DBC0;
+    border-top: 3px outset #E4DBC0;
 }
 .footer-slogan{
     flex: 0 0  auto;
@@ -99,7 +184,21 @@ footer{
     color: #d2181f;
     
 }
-
+.text-red{
+    color:#d2181f;
+}
+.text-blue{
+    color: #005D9C;
+}
+.text-white{
+    color: #ECEEEC;
+}
+.text-slate{
+    color: #555757;
+}
+.text-cream{
+    color: #E4DBC0;
+}
 /* --- Temp CSS --- */
 .tempContent{
     height: 500px;

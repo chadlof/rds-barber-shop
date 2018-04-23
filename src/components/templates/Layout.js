@@ -18,7 +18,7 @@ class Layout extends Component {
       return (
           <div className="mainContainer" >
             <Header/>
-            <section>
+            <section className="LayoutSection">
               <Switch>
                 <Route  exact path="/" component={Home}/>
                 <Route  path="/directions" component={Directions}/> 
@@ -27,7 +27,7 @@ class Layout extends Component {
                 <Route  exact path="/about" component={About}/>
               </Switch>
             </section>
-            <div className="tempContent"></div>
+            {/* <div className="tempContent"></div> */}
             <Footer/>
 
           </div>
