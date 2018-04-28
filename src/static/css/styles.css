@@ -106,7 +106,7 @@ header{
     display: flex;
     flex: 3 0 auto;
     flex-flow: row wrap ;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 .Home-top-left{
     display: flex;
@@ -126,22 +126,19 @@ header{
 .StorefrontPic{
     display: flex;
     flex: 0 0 auto;
-    padding: 5%;
+    padding: 3%;
     margin: 3% 9%;
     justify-content: center;
     background-color: #555757;
-    border: 1px ridge rgb(214, 214, 214);
+    border: 1px ridge #E4DBC0;
     /* box-shadow:  20px 10px 30px rgba(0, 94, 156, 0.438); */
 }
-.StorefrontPic Img{
-    flex: 0 0 auto;
-    border: 1px solid #ECEEEC;
-}
+
 .HomeInfo-div{
     padding: 0 6%;
-    margin-right: 20%;
+    margin: 0 9%;
     background-color: #555757;
-    border: 1px ridge rgb(214, 214, 214);
+    border: 1px ridge #E4DBC0;
     /* box-shadow:  20px 10px 30px rgba(0, 94, 156, 0.438); */
 }
 .Home-bottomContainer{
@@ -152,12 +149,12 @@ header{
 }
 .Welcome-div{
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     flex: 0 1 auto;
     margin: 2% 6%;
     padding: 0 10% 0 5%;
     background-color: #555757;
-    border: 1px ridge rgb(214, 214, 214);
+    border: 1px ridge #E4DBC0;
     /* box-shadow:  20px 10px 30px rgba(0, 94, 156, 0.438); */
 
 }
@@ -165,7 +162,7 @@ header{
     flex: 1 1 auto;
 }
 .Welcome-contact{
-    flex: 1 1 auto;
+    flex: 1 0 auto;
 }
 
 
