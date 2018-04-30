@@ -6,7 +6,7 @@ import '../../../../../static/css/styles.css'
 class HomeInfo extends Component {
     render() {
       return ( 
-          <div className="text-white HomeInfo-div">
+          <div className="text-gray HomeInfo-div">
             <h2 className="text-red">Hours</h2>
             <h3>Tuesday    8:00 am - 6:00pm</h3>
             <h3>Wednesday  8:00 am - 6:00pm</h3>

@@ -1,14 +1,18 @@
 import React, { Component } from 'react';
 // import PropTypes from 'prop-types'
 import '../../../static/css/styles.css'
-// import Layout from '../../templates/Layout'
+import Map from './Components/Map'
+import Info from './Components/Info'
 
 
 
 class Directions extends Component {
     render() {
       return ( 
-        <h1>Directions</h1>
+        <div className="Directions-div">
+          <Map/>
+          <Info/>
+        </div>
       );
     }
   }

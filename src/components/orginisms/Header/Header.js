@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 // import PropTypes from 'prop-types'
 import '../../../static/css/styles.css'
-import Logo from './components/Logo'
+import Logo from '../../atoms/Logo'
 import PhoneNum from './components/PhoneNum'
 import Address from './components/Address'
 import TopNav from './components/TopNav'

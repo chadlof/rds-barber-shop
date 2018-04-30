@@ -8,7 +8,7 @@ class Welcome extends Component {
     render() {
       return ( 
           <div className="Welcome-div">
-            <div className="Welcome-message text-white">
+            <div className="Welcome-message text-gray">
                 <h2 className="text-red">Welcome to RD's Barbershop!</h2>
                 <p>At RD's you will find that getting a haircut can be a fun experience again.  
                     We are not like the typical chain salons.  

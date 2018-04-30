@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 // import PropTypes from 'prop-types'
-import '../../../../../static/css/styles.css'
-import RDsLogo from '../../../../../static/images/RDsLogo.png'
+import '../../../static/css/styles.css'
+import RDsLogo from '../../../static/images/RDsLogo.png'
 
 class Logo extends Component {
     render() {
