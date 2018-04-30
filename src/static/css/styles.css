@@ -151,11 +151,11 @@ header{
 }
 .Welcome-message{
     flex: 1 1 auto;
-    padding-right: 3%
+    padding-right: 40px;
 }
 .Welcome-contact{
     flex: 1 0 auto;
-    padding: 3%;
+    padding: 30px;
     text-align: center;
 }
 
