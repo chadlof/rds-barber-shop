@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 // import PropTypes from 'prop-types'
 import '../../../static/css/styles.css'
-import Storefront from "./components/StorefrontPic"
+import Img from "../../atoms/Img"
 import HomeInfo from './components/HomeInfo'
 import Welcome from './components/Welcome'
+import storeFrontPic from '../../../static/images/storeFront.png'
 
 
 
@@ -13,7 +14,11 @@ class Home extends Component {
         <div className="Home-Container">
           <div className="Home-topContainer">
             <div className="Home-top-left">
-              <Storefront/>
+              <Img
+              path={storeFrontPic}
+              alt=""
+              width="500px"
+              />
             </div>
             <div className="Home-top-right">
               <HomeInfo/>
