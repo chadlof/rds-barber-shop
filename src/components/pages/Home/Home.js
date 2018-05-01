@@ -8,6 +8,7 @@ import storeFrontPic from '../../../static/images/storeFront.png'
 
 
 
+
 class Home extends Component {
     render() {
       return (
