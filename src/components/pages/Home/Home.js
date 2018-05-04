@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 // import PropTypes from 'prop-types'
 import '../../../static/css/styles.css'
-import Img from "../../atoms/Img"
 import HomeInfo from './components/HomeInfo'
 import Welcome from './components/Welcome'
 import storeFrontPic from '../../../static/images/storeFront.png'
@@ -11,16 +10,16 @@ import storeFrontPic from '../../../static/images/storeFront.png'
 
 class Home extends Component {
     render() {
+      console.log("Home pic ulr",storeFrontPic)
       return (
         <div className="Home-Container">
           <div className="Home-topContainer">
-            <div className="Home-top-left">
-              <Img
-              path={storeFrontPic}
+            
+              <img
+              src={storeFrontPic}
               alt=""
-              width="500px"
               />
-            </div>
+            
             <div className="Home-top-right">
               <HomeInfo/>
             </div>

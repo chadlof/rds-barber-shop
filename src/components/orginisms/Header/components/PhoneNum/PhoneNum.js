@@ -6,7 +6,7 @@ import '../../../../../static/css/styles.css'
 class PhoneNum extends Component {
     render() {
       return (
-            <h2 className="PhoneNum-h2">(763) 4136-4169</h2>
+            <a className="PhoneNumber" href="tel:7634164169">(763) 4136-4169</a>
       );
     }
   }
