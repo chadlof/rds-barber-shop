@@ -12,33 +12,28 @@ body{
 img {
     max-width: 100%;
 }
+a{
+    text-decoration: none;
+}
 /* --- Layout --- */
 .mainContainer{
     display: flex;
     flex-flow: column wrap;
     background-color: #ECEEEC;
     border: 4px outset #E4DBC0;
+    
 }
 /* --- Header --- */
 header{
     background-color: #E4DBC0;
     border-bottom: 3px outset #E4DBC0;
-}
-.header-top{
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    padding-top: 10px;
-    
-}
-.header-bottom{
-    display: flex;
-    flex-flow: row wrap;
     justify-content: space-around;
+    flex-flow: row wrap;
 }
+
 .Logo-div{
     display:flex;
-    flex: 0 0  auto;
     align-self:center;
 }
 .Logo-img{
@@ -49,25 +44,45 @@ header{
     margin-top: 30px;
     color: #d2181f;
 }
+.header-call-today-div{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-call-today-h2{
+    display: flex;
+    color: #d2181f;
+    margin-right: 25px;
+}
+
 
 .PhoneNumber{
-    color: #FFF;
-    background: blue;
+    color: #ECEEEC;
+    background:#005D9C;
     padding: 8px 24px;
-    text-decoration: none;
-    border-radius: 4px;
+    border-radius: 6px;
     font-weight: bold;
+    /* border:1px solid #ECEEEC; */
 }
+.PhoneNumber:hover{
+    border:2px solid #ECEEEC;
+
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  /*  ---old --- */
 
 .Address-h2{
     color: #d2181f;
-    flex: 0 0 auto;
     align-self: center;
     margin: 0;
 } 
 
 .TopNav-div{
-    flex: 0 0  auto;
     align-self: center;
 }
 .TopNav-ul{
@@ -99,7 +114,7 @@ header{
 /* --- Layout --- */
 .LayoutSection{
     max-width:1200px;
-    margin:20px auto;
+    margin: 100px 10% 0 10%;
 
 }
 /* --- Home page --- */
@@ -110,14 +125,12 @@ header{
 }
 .Home-topContainer{
     display: flex;
-    flex: 2 0 auto;
     flex-flow: row wrap ;
     justify-content: space-between;
 }
 
 .Home-top-right{
     display: flex;
-    flex: 1 0 auto;
     flex-flow: column wrap;
     justify-content: center;
     text-align: center;
@@ -129,24 +142,20 @@ header{
 }
 .Home-bottomContainer{
     display: flex;
-    flex: 3 0 auto;
     flex-flow: row wrap ;
     justify-content: space-around;
 }
 .Welcome-div{
     display: flex;
     flex-flow: row nowrap;
-    flex: 0 1 auto;
     margin: 2% 6%;
 
 
 }
 .Welcome-message{
-    flex: 1 1 auto;
     padding-right: 40px;
 }
 .Welcome-contact{
-    flex: 1 0 auto;
     padding: 30px;
     text-align: center;
 }
@@ -157,22 +166,18 @@ header{
     justify-content: space-evenly;
 }
 .Map-div{
-    flex: 0 1 auto;
     border: 1px ridge #555757;
 }
 .Directions-Info-div{
     display: flex;
     flex-flow: column wrap;
-    flex: 0 1 auto;
     justify-content: center;
     text-align: center;
 }
 .Directions-Info-Logo{
-    flex: 0 1 auto;
     align-self: center;
 }
 .Directions-Info-h2{
-    flex: 0 1 auto;
 
 }
 
@@ -181,13 +186,11 @@ header{
 /* --- Footer --- */
 footer{
     display: flex;
-    flex: 0 0  auto;
     justify-content: space-evenly;
     background-color: #E4DBC0;
     border-top: 3px outset #E4DBC0;
 }
 .footer-slogan{
-    flex: 0 0  auto;
     align-self: center;
     color: #d2181f;
     

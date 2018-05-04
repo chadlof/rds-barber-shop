@@ -10,16 +10,13 @@ import TopNav from './components/TopNav'
 class Header extends Component {
     render() {
       return (
-        <header >
-            <div className="header-top">
-                <PhoneNum/>
-                <Address/>
-            </div>
-            <div className="header-bottom">
+        <header className="sticky">
                 <Logo/>
-                <TopNav/>
-            </div>
-            
+                <div className="header-call-today-div">
+                    <h2 className="header-call-today-h2">Call Today!</h2>
+                    <PhoneNum/>
+                </div>
+                
         </header>
       );
     }
