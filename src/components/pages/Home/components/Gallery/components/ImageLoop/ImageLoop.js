@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 // import PropTypes from 'prop-types'
 import '../../../../../../../static/css/styles.css'
 import firstCut from '../../../../../../../static/images/gallery/firstCut.png'
@@ -15,14 +15,15 @@ import boyCut from  '../../../../../../../static/images/gallery/boyCut.png'
 const ImageLoop = () =>{
   
     const images =[
-      firstCut,
+      
       firstCut2,
       firstCut3,
       firstCut4,
       firstCut5,
       firstCut6,
       firstCut7,
-      boyCut
+      boyCut,
+      firstCut
     ];
 
   
@@ -32,7 +33,7 @@ const ImageLoop = () =>{
           <img
             src={path}
             alt=""
-            // width="400"
+            width="164"
         />
         </div>
         

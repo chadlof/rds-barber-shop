@@ -1,14 +1,14 @@
-/* --- HTML elements --- */
 @font-face{
     font-family: butler;
     src: url(../fonts/Butler_Medium.otf);
 }
+/* --- HTML elements --- */
+
 body{
     font-family: "Baskerville Old Face";
     padding: 0;
     margin: 0;
 }
-
 img {
     max-width: 100%;
 }
@@ -34,14 +34,15 @@ p{
     color: #555757;
 }
 /* --- Layout --- */
+
 .mainContainer{
     display: flex;
     flex-flow: column wrap;
     background-color: #ECEEEC;
-    /* border: 2px outset #E4DBC0; */
     
 }
 /* --- Header --- */
+
 header{
     background-color: #E4DBC0;
     display: flex;
@@ -73,65 +74,31 @@ header{
     color: #d2181f;
     margin-right: 25px;
 }
-
-
 .PhoneNumber{
     color: #ECEEEC;
     background:#005D9C;
     padding: 8px 24px;
     border-radius: 6px;
     font-weight: bold;
-    /* border:1px solid #ECEEEC; */
 }
 .PhoneNumber:hover{
     border:2px solid #ECEEEC;
-
 }
 .sticky {
     position: fixed;
     top: 0;
     width: 100%
   }
-  /*  ---old --- */
-
-
-
-.TopNav-div{
-    align-self: center;
-}
-.TopNav-ul{
-    display: inline;
-    list-style-type: none;
-    color: #005D9C;
-    font-size: 1.5em;
-    
-}
-.TopNav-ul li{
-    display: inline;    
-    padding-left: 10px;
-
-}
-
-.TopNav-ul a{ 
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    color: #005D9C;
-}
-
-.TopNav-ul a:hover {
-    color: #ECEEEC;
-}
-.TopNav-ul .active{
-    color:black;
-}
+ 
 /* --- Layout --- */
+
 .LayoutSection{
     max-width:1200px;
-    margin: 150px 10% 0 10%;
+    margin: 133px 10% 10px 10%;
 
 }
 /* --- Home page --- */
+
 .Home-Container{
     display:flex;
     flex-flow: column wrap ;
@@ -151,25 +118,17 @@ header{
     text-align: center;
     flex: 1;
 }
-
-.HomeInfo-div{
-
-}
 .Home-bottomContainer{
     display: flex;
     justify-content: space-around;
 }
-.Welcome-div{
-    
-
-}
-
 .Welcome-contact{
     padding: 30px;
     text-align: center;
 }
 
-/* --- Galery --- */
+
+/* --- Gallery --- */
 
 .Gallery-div{
     display: flex;
@@ -178,16 +137,14 @@ header{
 }
 .ImageLoop-div{
     display: flex;
-}
-.ImageLoop-img{
-  /* width: 400px; */
-   
+    flex-flow: row wrap;
+    justify-content: space-between;
 }
 
-/* --- Directions page --- */
-.Directions-div{
-    /* display: flex; */
-}
+
+
+/* --- Directions --- */
+
 .Map-div{
     border: 1px ridge #555757;
 }
@@ -200,13 +157,12 @@ header{
 .Directions-Info-Logo{
     align-self: center;
 }
-.Directions-Info-h2{
 
-}
 
 
 
 /* --- Footer --- */
+
 footer{
     background-color: #E4DBC0;
     border-top: 3px outset #E4DBC0;
@@ -220,6 +176,7 @@ footer{
 }
 .footer-slogan h4{
     border-top: solid 1px#d2181f;
+    padding-top: .5em;
 }
 .footer-bottom{
     display: flex;
@@ -263,8 +220,13 @@ footer{
 @media (min-width: 500px) {
 
 .LayoutSection{
-    margin: 100px 10% 0 10%;
-
+    margin: 100px 20% 0 20%;
+}
+header{
+    padding: 0 10%;
+}
+footer{
+    padding: 0 10%
 }
 
 /* end min-width 500 */

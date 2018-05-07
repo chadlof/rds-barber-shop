@@ -1,0 +1,33 @@
+ /*  ---old --- */
+
+
+
+ .TopNav-div{
+    align-self: center;
+}
+.TopNav-ul{
+    display: inline;
+    list-style-type: none;
+    color: #005D9C;
+    font-size: 1.5em;
+    
+}
+.TopNav-ul li{
+    display: inline;    
+    padding-left: 10px;
+
+}
+
+.TopNav-ul a{ 
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #005D9C;
+}
+
+.TopNav-ul a:hover {
+    color: #ECEEEC;
+}
+.TopNav-ul .active{
+    color:black;
+}

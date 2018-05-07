@@ -14,7 +14,7 @@ class SocialIcons extends Component{
                     <img
                     src={linkedin}
                     alt="Google Maps Icon"
-                    width="25"
+                    width="30"
                     />
                 </a>
                 <a href="https://www.facebook.com">

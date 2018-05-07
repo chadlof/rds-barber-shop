@@ -9,6 +9,7 @@ class Map extends Component {
       return ( 
           <div className="Map-div">
                 <iframe
+                    title="RDsMap"
                     // width="400"
                     height="300"
                     frameborder="0" 
