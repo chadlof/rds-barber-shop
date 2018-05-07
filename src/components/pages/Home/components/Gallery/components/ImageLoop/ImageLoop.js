@@ -1,9 +1,6 @@
 import React, {Component} from 'react';
 // import PropTypes from 'prop-types'
 import '../../../static/css/styles.css'
-// import * as path from '../../../static/images/gallery'
-
-
 import firstCut from '../../../static/images/gallery/firstCut.png'
 import firstCut2 from  '../../../static/images/gallery/firstCut2.jpg'
 import firstCut3 from  '../../../static/images/gallery/firstCut3.jpg'
@@ -16,6 +13,7 @@ import boyCut from  '../../../static/images/gallery/boyCut.png'
 
 
 const ImageLoop = () =>{
+  
     const images =[
       firstCut,
       firstCut2,
@@ -28,8 +26,6 @@ const ImageLoop = () =>{
     ];
 
   
- 
-   
     const imageComponents = images.map(function(path){
       return(
         <img
@@ -42,23 +38,5 @@ const ImageLoop = () =>{
 
     return imageComponents
 }
-        
-       
-    
-    
-   
 
-
-
-
-class Gallery extends Component{
-  render() {
-      return (
-          <ImageLoop/>
-          // <h2>Gallery</h2>
-          
-      );
-  }
-}
-  
-  export default Gallery
+export default ImageLoop

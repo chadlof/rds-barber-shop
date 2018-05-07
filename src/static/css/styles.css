@@ -15,21 +15,38 @@ img {
 a{
     text-decoration: none;
 }
+h1{
+    margin: .5em;
+}
+h2{
+    margin: .5em;
+    color:#d2181f;
+}
+h3{
+    margin: .5em;
+    color: #555757;
+}
+h4{
+    margin: .5em;
+}
+p{
+    color: #555757;
+}
 /* --- Layout --- */
 .mainContainer{
     display: flex;
     flex-flow: column wrap;
     background-color: #ECEEEC;
-    border: 4px outset #E4DBC0;
+    /* border: 2px outset #E4DBC0; */
     
 }
 /* --- Header --- */
 header{
     background-color: #E4DBC0;
-    border-bottom: 3px outset #E4DBC0;
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
+    padding-top: .5em;
 }
 
 .Logo-div{
@@ -76,11 +93,7 @@ header{
   }
   /*  ---old --- */
 
-.Address-h2{
-    color: #d2181f;
-    align-self: center;
-    margin: 0;
-} 
+
 
 .TopNav-div{
     align-self: center;
@@ -114,7 +127,7 @@ header{
 /* --- Layout --- */
 .LayoutSection{
     max-width:1200px;
-    margin: 100px 10% 0 10%;
+    margin: 150px 10% 0 10%;
 
 }
 /* --- Home page --- */
@@ -126,7 +139,8 @@ header{
 .Home-topContainer{
     display: flex;
     flex-flow: row wrap ;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
 
 .Home-top-right{
@@ -134,27 +148,21 @@ header{
     flex-flow: column wrap;
     justify-content: center;
     text-align: center;
+    flex: 1;
 }
 
 .HomeInfo-div{
-    padding: 0 6%;
-    margin: 0 9%;
+
 }
 .Home-bottomContainer{
     display: flex;
-    flex-flow: row wrap ;
     justify-content: space-around;
 }
 .Welcome-div{
-    display: flex;
-    flex-flow: row nowrap;
-    margin: 2% 6%;
-
+    
 
 }
-.Welcome-message{
-    padding-right: 40px;
-}
+
 .Welcome-contact{
     padding: 30px;
     text-align: center;
@@ -185,16 +193,37 @@ header{
 
 /* --- Footer --- */
 footer{
-    display: flex;
-    justify-content: space-evenly;
     background-color: #E4DBC0;
     border-top: 3px outset #E4DBC0;
+    text-align: center;
 }
 .footer-slogan{
-    align-self: center;
+    display: flex;
     color: #d2181f;
-    
+    justify-content: center;
+    padding: 0 20px;
 }
+.footer-slogan h4{
+    border-top: solid 1px#d2181f;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.SocialIcons-div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+.SocialIcons-div a{
+    padding-left: 15px
+}
+.Address-h2{
+    color: #d2181f;
+    align-self: center;
+    padding: 0 20px;
+} 
 .text-red{
     color:#d2181f;
 }
@@ -210,7 +239,19 @@ footer{
 .text-cream{
     color: #E4DBC0;
 }
-/* --- Temp CSS --- */
-.tempContent{
-    height: 500px;
+
+
+/*  
+        for screens wider then 500px
+*/
+
+@media (min-width: 500px) {
+
+.LayoutSection{
+    margin: 100px 10% 0 10%;
+
 }
+
+/* end min-width 500 */
+}
+/* do not delete */

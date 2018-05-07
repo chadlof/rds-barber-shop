@@ -3,8 +3,7 @@ import React, { Component } from 'react';
 import '../../../static/css/styles.css'
 import Logo from '../../atoms/Logo'
 import PhoneNum from './components/PhoneNum'
-import Address from './components/Address'
-import TopNav from './components/TopNav'
+
 
 
 class Header extends Component {

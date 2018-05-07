@@ -10,25 +10,22 @@ import storeFrontPic from '../../../static/images/storeFront.png'
 
 class Home extends Component {
     render() {
-      console.log("Home pic ulr",storeFrontPic)
       return (
         <div className="Home-Container">
-          <div className="Home-topContainer">
-            
-              <img
-              src={storeFrontPic}
-              alt=""
-              />
-            
+          <section className="Home-topContainer">
+            <img
+            src={storeFrontPic}
+            alt=""
+            width="400"
+            />
             <div className="Home-top-right">
               <HomeInfo/>
             </div>
-          </div>
+          </section>
 
-          <div className="Home-bottomContainer">
+          <section className="Home-bottomContainer">
             <Welcome/>
-          </div>
-          
+          </section>
         </div>
         
           
