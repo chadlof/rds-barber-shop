@@ -4,6 +4,8 @@ import '../../../static/css/styles.css'
 import HomeInfo from './components/HomeInfo'
 import Welcome from './components/Welcome'
 import storeFrontPic from '../../../static/images/storeFront.png'
+import Directions from './components/Directions'
+import Gallery from './components/Gallery'
 
 
 
@@ -22,10 +24,16 @@ class Home extends Component {
               <HomeInfo/>
             </div>
           </section>
-
           <section className="Home-bottomContainer">
             <Welcome/>
           </section>
+          <section className="Home-Directions">
+            <Directions/>          
+          </section>
+          <section className="Home-Gallery">
+            <Gallery/>          
+          </section>
+
         </div>
         
           

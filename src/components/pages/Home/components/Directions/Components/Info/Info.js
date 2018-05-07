@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 // import PropTypes from 'prop-types'
-import '../../../../../static/css/styles.css'
-import Logo from '../../../../atoms/Logo'
+import '../../../../../../../static/css/styles.css'
+import Logo from '../../../../../../../components/atoms/Logo'
 
 
 

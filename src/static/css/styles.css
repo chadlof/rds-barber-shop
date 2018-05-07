@@ -21,6 +21,7 @@ h1{
 h2{
     margin: .5em;
     color:#d2181f;
+    text-align: center;
 }
 h3{
     margin: .5em;
@@ -168,10 +169,24 @@ header{
     text-align: center;
 }
 
+/* --- Galery --- */
+
+.Gallery-div{
+    display: flex;
+   flex-flow: column;
+   justify-content: center;
+}
+.ImageLoop-div{
+    display: flex;
+}
+.ImageLoop-img{
+  /* width: 400px; */
+   
+}
+
 /* --- Directions page --- */
 .Directions-div{
-    display: flex;
-    justify-content: space-evenly;
+    /* display: flex; */
 }
 .Map-div{
     border: 1px ridge #555757;
