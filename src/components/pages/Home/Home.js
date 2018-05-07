@@ -18,7 +18,7 @@ class Home extends Component {
             <img
             src={storeFrontPic}
             alt=""
-            width="400"
+            width="350"
             />
             <div className="Home-top-right">
               <HomeInfo/>
