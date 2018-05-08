@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 // import PropTypes from 'prop-types'
-import '../../../../../static/css/styles.css'
+import '../../../../../../../static/css/styles.css'
 
 
 class HomeInfo extends Component {

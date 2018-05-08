@@ -8,22 +8,23 @@ import firstCut4 from  '../../../../../../../static/images/gallery/firstCut4.jpg
 import firstCut5 from  '../../../../../../../static/images/gallery/firstCut5.jpg'
 import firstCut6 from  '../../../../../../../static/images/gallery/firstCut6.jpg'
 import firstCut7 from  '../../../../../../../static/images/gallery/firstCut7.jpg'
-import boyCut from  '../../../../../../../static/images/gallery/boyCut.png'
+import mason from  '../../../../../../../static/images/gallery/mason.jpg'
+import mason2 from  '../../../../../../../static/images/gallery/mason2.jpg'
+import brian from  '../../../../../../../static/images/gallery/brian.jpg'
+import brian2 from  '../../../../../../../static/images/gallery/brian2.jpg'
+import brian3 from  '../../../../../../../static/images/gallery/brian3.jpg'
 
 
 
 const ImageLoop = () =>{
   
     const images =[
-      
-      firstCut2,
-      firstCut3,
-      firstCut4,
-      firstCut5,
-      firstCut6,
-      firstCut7,
-      boyCut,
-      firstCut
+      firstCut2,firstCut3,
+      firstCut4,firstCut5,
+      firstCut6,firstCut7,
+      firstCut,mason,
+      mason2,brian3,
+      brian2,brian
     ];
 
   
@@ -33,7 +34,8 @@ const ImageLoop = () =>{
           <img
             src={path}
             alt=""
-            width="164"
+            width="148"
+            height="198"
         />
         </div>
         

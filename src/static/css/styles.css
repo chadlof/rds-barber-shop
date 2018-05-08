@@ -9,6 +9,9 @@ body{
     padding: 0;
     margin: 0;
 }
+section{
+    margin-bottom: 25px;
+}
 img {
     max-width: 100%;
 }
@@ -19,7 +22,7 @@ h1{
     margin: .5em;
 }
 h2{
-    margin: .5em;
+    margin: .7em;
     color:#d2181f;
     text-align: center;
 }
@@ -39,7 +42,11 @@ p{
     display: flex;
     flex-flow: column wrap;
     background-color: #ECEEEC;
-    
+}
+.LayoutSection{
+    max-width:1200px;
+    margin: 150px 10% 10px 10%;
+
 }
 /* --- Header --- */
 
@@ -90,13 +97,7 @@ header{
     width: 100%
   }
  
-/* --- Layout --- */
 
-.LayoutSection{
-    max-width:1200px;
-    margin: 133px 10% 10px 10%;
-
-}
 /* --- Home page --- */
 
 .Home-Container{
@@ -104,13 +105,12 @@ header{
     flex-flow: column wrap ;
     justify-content: space-between;
 }
-.Home-topContainer{
+.AboveTheFold-div{
     display: flex;
     flex-flow: row wrap ;
     justify-content: center;
     align-items: center;
 }
-
 .Home-top-right{
     display: flex;
     flex-flow: column wrap;
@@ -122,9 +122,9 @@ header{
     display: flex;
     justify-content: space-around;
 }
-.Welcome-contact{
-    padding: 30px;
-    text-align: center;
+.Welcome-div{
+    margin: 30px 0;
+
 }
 
 
@@ -139,6 +139,7 @@ header{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    align-items: center;
 }
 
 
@@ -159,7 +160,12 @@ header{
 }
 
 
+/* --- About --- */
 
+.bio-p img{
+    float: left;
+    margin: 0 30px 0 0;
+}
 
 /* --- Footer --- */
 
@@ -218,15 +224,23 @@ footer{
 */
 
 @media (min-width: 500px) {
-
+h2{
+    margin-top: 30px;
+}
 .LayoutSection{
     margin: 100px 20% 0 20%;
 }
-header{
-    padding: 0 10%;
+
+.Directions-div{
+    display: flex;
+    justify-content: space-between;
+}
+.ImageLoop-img{
+    margin-bottom: 20px;
 }
 footer{
-    padding: 0 10%
+    padding: 1% 10% 0;
+    margin-top: 20px;
 }
 
 /* end min-width 500 */

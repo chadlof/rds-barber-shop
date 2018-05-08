@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 // import PropTypes from 'prop-types'
 import '../../../static/css/styles.css'
-import HomeInfo from './components/HomeInfo'
-import Welcome from './components/Welcome'
-import storeFrontPic from '../../../static/images/storeFront.png'
 import Directions from './components/Directions'
 import Gallery from './components/Gallery'
+import AboveTheFold from './components/AboveTheFold'
+import About from './components/About'
 
 
 
@@ -14,26 +13,18 @@ class Home extends Component {
     render() {
       return (
         <div className="Home-Container">
-          <section className="Home-topContainer">
-            <img
-            src={storeFrontPic}
-            alt=""
-            width="350"
-            />
-            <div className="Home-top-right">
-              <HomeInfo/>
-            </div>
+          <section >
+            <AboveTheFold/>
           </section>
-          <section className="Home-bottomContainer">
-            <Welcome/>
-          </section>
-          <section className="Home-Directions">
+          <section >
             <Directions/>          
           </section>
-          <section className="Home-Gallery">
+          <section >
             <Gallery/>          
           </section>
-
+          <section>
+            <About/>
+          </section>
         </div>
         
           
