@@ -34,8 +34,7 @@ const ImageLoop = () =>{
           <img
             src={path}
             alt=""
-            width="148"
-            height="198"
+           
         />
         </div>
         

@@ -10,8 +10,6 @@ class Map extends Component {
           <div className="Map-div">
                 <iframe
                     title="RDsMap"
-                    // width="400"
-                    height="300"
                     frameborder="0" 
                     src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCN6zLYggcQMat5yLLqikn9f48naYLKQGY
                         &q=RD's+Barbershop,Albertville+MN" allowfullscreen>

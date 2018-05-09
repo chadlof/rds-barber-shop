@@ -14,6 +14,10 @@ section{
 }
 img {
     max-width: 100%;
+    border: 1px solid #E4DBC0;
+}
+iframe{
+    max-width: 100%;
 }
 a{
     text-decoration: none;
@@ -64,6 +68,7 @@ header{
 }
 .Logo-img{
     height:50px;
+    border: none;
 }
 .Logo-h3{
     margin-left: -5px;
@@ -116,7 +121,7 @@ header{
     flex-flow: column wrap;
     justify-content: center;
     text-align: center;
-    flex: 1;
+    flex: 1 0;
 }
 .Home-bottomContainer{
     display: flex;
@@ -141,13 +146,18 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+.ImageLoop-img{
+    width: 49%;
+}
 
 
 
 /* --- Directions --- */
 
 .Map-div{
-    border: 1px ridge #555757;
+    display: flex;
+    display: flex;
+    border: 1px solid #E4DBC0;
 }
 .Directions-Info-div{
     display: flex;
@@ -224,20 +234,37 @@ footer{
 */
 
 @media (min-width: 500px) {
+/*--- HTML elements ---*/
 h2{
     margin-top: 30px;
 }
+
+/* --- Layout --- */
 .LayoutSection{
-    margin: 100px 20% 0 20%;
+    margin: 120px 20% 0 20%;
+}
+/* --- AboveTheFold --- */
+.HomeInfo-div h2{
+    margin-top: 0;
 }
 
+/* --- Directions ---0 */
 .Directions-div{
     display: flex;
     justify-content: space-between;
 }
+
+/* --- Gallery --- */
 .ImageLoop-img{
     margin-bottom: 20px;
 }
+
+/* --- About --- */
+.bio-p img {
+    margin: 5px 30px 0px 5px;
+}
+
+/* --- footer --- */
 footer{
     padding: 1% 10% 0;
     margin-top: 20px;
