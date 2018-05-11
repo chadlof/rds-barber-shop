@@ -12,7 +12,7 @@ class AboveTheFold extends Component{
            <img
             src={storeFrontPic}
             alt=""
-            width="350"
+            width="400"
           />  
           <div className="Home-top-right">
             <HomeInfo/>

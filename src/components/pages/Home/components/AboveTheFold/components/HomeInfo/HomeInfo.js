@@ -11,7 +11,8 @@ class HomeInfo extends Component {
             <h3>Tuesday    8:00 am - 6:00pm</h3>
             <h3>Wednesday  8:00 am - 6:00pm</h3>
             <h3>Thursday   8:00 am - 6:00pm</h3>
-            <h3>Friday     8:00 am - 3:00pm</h3>
+            <h3>Friday     8:00 am - 6:00pm</h3>
+            <h3>Saturday   8:00 am - 3:00pm</h3>
             <h3>Sunday     Closed</h3>
             <h3>Monday     Closed</h3>  
           </div>    
