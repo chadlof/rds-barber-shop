@@ -10,16 +10,16 @@ class Header extends Component {
     render() {
       return (
         <footer>
-          {/* <div className="footer-slogan">
+          <div className="footer-slogan">
             <h4>Anybody can cut hair off, but a barber knows when and where to stop.</h4>
-          </div> */}
+          </div>
           <div className="footer-bottom">
             <SocialIcons/>
             <Address/>
           </div>
-          <div className="footer-slogan">
+          {/* <div className="footer-slogan">
             <h4>Anybody can cut hair off, but a barber knows when and where to stop.</h4>
-          </div>
+          </div> */}
         </footer>
       );
     }

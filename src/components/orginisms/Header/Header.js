@@ -10,12 +10,13 @@ class Header extends Component {
     render() {
       return (
         <header className="sticky">
-                <Logo/>
-                <div className="header-call-today-div">
-                    <h2 className="header-call-today-h2">Call Today!</h2>
-                    <PhoneNum/>
-                </div>
-                
+          <div className="header-container">
+            <Logo/>
+            <div className="header-call-today-div">
+                <h2 className="header-call-today-h2">Call Today!</h2>
+                <PhoneNum/>
+            </div>
+          </div>
         </header>
       );
     }
