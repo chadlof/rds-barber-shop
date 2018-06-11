@@ -11,7 +11,7 @@ class AboveTheFold extends Component{
         <div className="AboveTheFold-div">
            <img
             src={storeFrontPic}
-            alt=""
+            alt="RD's Barbershop"
             width="400"
           />  
           <div className="Home-top-right">
