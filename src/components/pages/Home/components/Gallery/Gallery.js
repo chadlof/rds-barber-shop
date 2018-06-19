@@ -1,20 +1,18 @@
-import React, {Component} from 'react';
+import React from 'react';
 // import PropTypes from 'prop-types'
 import '../../../../../static/css/styles.css'
 import ImageLoop from './components/ImageLoop'
 
-class Gallery extends Component{
-  render() {
-      return (
+const Gallery = () =>{
+  return(
         <div className="Gallery-div">
           <h2>Gallery</h2>
           <div className="ImageLoop-div">
-          <ImageLoop/>
+            <ImageLoop/>
           </div>
         </div>
-          
-      );
-  }
+  ) 
+
 }
   
   export default Gallery
